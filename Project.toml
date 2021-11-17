@@ -1,0 +1,7 @@
+name = "Smoothing"
+uuid = "cf09d348-ed9f-4043-bc55-1768af2a262b"
+authors = ["Paul Nakroshis <pauln@maine.edu>"]
+version = "1.0.0"
+
+[compat]
+julia = "1.6.3"
