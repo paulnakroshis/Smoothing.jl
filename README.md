@@ -13,15 +13,14 @@ https://doi.org/10.1063/1.1137498 <br>
 The filter preserves the values starting
 and ending values of the initial data set. 
 
-### Example (you can easily manually verify data1's smoothing is correct.)
+### Example (you can easily manually verify my_data's smoothing is correct.)
 
 Usage:
 
 ```julia-repl
 julia> using Smoothing
-julia> data1 = [1.0, 2.0, 3.0, 4.0, 5.0]
-julia> data2 = [3.0, 6.0, 1.0, 4.0, 0.0]
-julia> Smoothing.binomial(data1, 1)
+julia> my_data = [1.0, 2.0, 3.0, 4.0, 5.0]
+julia> Smoothing.binomial(my_data, 1)
 
 5-element Vector{Float64}:
  1.0
