@@ -3,5 +3,8 @@ uuid = "cf09d348-ed9f-4043-bc55-1768af2a262b"
 authors = ["Paul Nakroshis <pauln@maine.edu>"]
 version = "1.0.0"
 
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
 [compat]
 julia = "1.6.3"
